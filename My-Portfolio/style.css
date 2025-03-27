@@ -169,7 +169,7 @@ animation-delay: 1.6s;
     position: relative;
     width: 32vw;
     height: 32vw;
-    background: red;
+    background: rgb(3, 32, 2);
     border-radius: 50%;
     padding: 5px;
     display: flex;
@@ -185,7 +185,7 @@ animation-delay: 1.6s;
     height: 500px;
     background: conic-gradient(transparent, transparent, transparent, #7cf03d);
     transform: rotate(0deg);
-    animation: rotate-border 10s liner infinite;
+    animation: rotate-border 10s linear infinite;
 }
 .home-img .img-box::after{
     animation-delay: -5s;
@@ -213,6 +213,7 @@ animation-delay: 1.6s;
     display: block;
     width: 85%;
     object-fit: cover;
+    mix-blend-mode: lighten;
 }
 
 .bars-animation{
